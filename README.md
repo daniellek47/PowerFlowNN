@@ -29,12 +29,12 @@ This research project develops an advanced machine learning approach for predict
 ## Key Graphs and Visualizations
 
 ### 1. Training Loss Curves
-![Training Loss](path/to/training_loss.png)
+![Training Loss](PowerFlowNN/training_validation_loss.png)
 - Demonstrates model learning progress
 - Shows convergence of training and validation loss
 
 ### 2. Voltage Prediction Scatter Plot
-![Voltage Prediction](path/to/voltage_prediction_scatter.png)
+![Voltage Prediction](PowerFlowNN/voltages.png)
 - Actual vs. Predicted voltage magnitudes
 - R² and RMSE metrics
 
