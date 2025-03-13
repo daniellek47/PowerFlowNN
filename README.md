@@ -62,13 +62,13 @@ This research project develops an advanced machine learning approach for predict
 ```bash
 #Usage:
     # Load data
-    input_df = pd.read_csv("power_flow_nn/cluster_in_1_withp.csv")
-    output_df = pd.read_csv("power_flow_nn/cluster_out_1.csv")
+    input_df = pd.read_csv("power_flow_nn/data_in.csv")
+    output_df = pd.read_csv("power_flow_nn/data_out.csv")
     # Train the model and evaluate
     model, X_mean, X_std, voltage_min, voltage_range = train_and_evaluate_nn(
         input_df=input_df, 
         output_df=output_df,
-        hidden_size=10
+        hidden_size=18
     )
     # Test prediction time
     test_prediction_time(
