@@ -43,10 +43,7 @@ This research project develops an advanced machine learning approach for predict
 - Spatial representation of power flow
 - Different colors for different clusters
 
-### 4. Node Clustering Diagram
-![Node Clustering](path/to/node_clustering.png)
-- Visualization of node clusters
-- Electrical connectivity representation
+
 
 ## Performance Metrics
 - Mean Squared Error (MSE)
