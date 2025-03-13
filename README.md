@@ -61,16 +61,29 @@ This research project develops an advanced machine learning approach for predict
 - Scikit-learn
 - Matplotlib
 
-## Installation
+## Usage
 ```bash
-git clone https://github.com/yourusername/power-system-ml.git
-cd power-system-ml
-pip install -r requirements.txt
+#Usage:
+    # Load data
+    input_df = pd.read_csv("power_flow_nn/cluster_in_1_withp.csv")
+    output_df = pd.read_csv("power_flow_nn/cluster_out_1.csv")
+    # Train the model and evaluate
+    model, X_mean, X_std, voltage_min, voltage_range = train_and_evaluate_nn(
+        input_df=input_df, 
+        output_df=output_df,
+        hidden_size=10
+    )
+    # Test prediction time
+    test_prediction_time(
+        model, 
+        input_df.values, 
+        X_mean, 
+        X_std, 
+        voltage_min, 
+        voltage_range
+    )
 
-# Example code snippet
-from power_flow_prediction import predict_voltages
 
-results = predict_voltages(input_data)
 ```
 
 
