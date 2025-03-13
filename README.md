@@ -1,10 +1,10 @@
 # Power System Voltage and Power Flow Prediction using Neural Networks and Clustering
 
 ## Project Overview
-This research project develops an advanced machine learning approach for predicting voltage magnitudes and power flows in electrical power systems using neural networks and intelligent clustering techniques.
-Main training functions and time measurement in [NN_clusters.py](NN_cluster.py) optimal hidden layer sizes: Main network: 18, cluster 5: 10, cluster 1: 12 
-Clusters Management, Datasets manipulation in [clusters.py](clusters.py)
-Another experimental notebook in [nn_cluster.ipynb](nn_cluster.ipynb) - not the final product
+- This research project develops an advanced machine learning approach for predicting voltage magnitudes and power flows in electrical power systems using neural networks and intelligent clustering techniques.
+- Main training functions and time measurement in [NN_clusters.py](NN_cluster.py) optimal hidden layer sizes: Main network: 18, cluster 5: 10, cluster 1: 12 
+- Clusters Management, Datasets manipulation in [clusters.py](clusters.py)
+- Another experimental notebook in [nn_cluster.ipynb](nn_cluster.ipynb) - not the final product
 
 ## Key Features
 - Multi-phase power system voltage prediction
@@ -38,13 +38,11 @@ Another experimental notebook in [nn_cluster.ipynb](nn_cluster.ipynb) - not the 
 
 ### 2. Voltage Prediction Scatter Plot
 ![Voltage Prediction](voltages.png)
-- Actual vs. Predicted voltage magnitudes
-- R² and RMSE metrics
 
-### 3. Power Flow Visualization
-![Power Flow](path/to/power_flow_visualization.png)
-- Spatial representation of power flow
-- Different colors for different clusters
+
+### 3. Voltage Phases Prediction Scatter Plot
+![Phases Prediction](phases.png)
+
 
 
 
