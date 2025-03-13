@@ -2,6 +2,9 @@
 
 ## Project Overview
 This research project develops an advanced machine learning approach for predicting voltage magnitudes and power flows in electrical power systems using neural networks and intelligent clustering techniques.
+Main training functions and time measurement in ![NN_clusters.py](NN_cluster.py) optimal hidden layer sizes: Main network: 18, cluster 5: 10, cluster 1: 12 
+Clusters Management, Datasets manipulation in ![clusters.py](clusters.py)
+Another experimental notebook in ![nn_cluster.ipynb](nn_cluster.ipynb) - not the final product
 
 ## Key Features
 - Multi-phase power system voltage prediction
